@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+//funções auxilia na identificação de ações.
+    function pulaLinha() {
+
+        document.write("<br>");
+
+    };
+    function mostra(idade){
+        document.write(idade);
+        pulaLinha();
+    }
+
+    var anoAtual = 2024
+    var anoDeNascimentoGiovanni = 1996;
+    var anoDeNascimentoFernando = 2005;
+    var anoDeNascimentoHeloisa = 1991;
+
+   // document.write("Giovanni tem " + (anoAtual - anoDeNascimentoGiovanni) + " anos");
+    mostra("Giovanni tem " + (anoAtual - anoDeNascimentoGiovanni) + " anos");
+
+    //document.write("Fernanda tem " + (anoAtual - anoDeNascimentoFernando) + " anos");
+    mostra("Fernanda tem " + (anoAtual - anoDeNascimentoFernando) + " anos");    
+
+    //document.write("Heloisa tem " + (anoAtual - anoDeNascimentoHeloisa) + " anos");
+    mostra("Heloisa tem " + (anoAtual - anoDeNascimentoHeloisa) + " anos");
+
+    var idadeGiovanni = 28;
+    var idadeFernando = 19;
+    var idadeHeloisa = 33;
+    var media = (idadeGiovanni + idadeFernando + idadeHeloisa) / 4;
+    //document.write('A média das idades é ' + Math.round(media));
+    mostra('A média das idades é ' + Math.round(media));
+</script>
